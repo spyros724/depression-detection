@@ -55,5 +55,5 @@ df.drop(df[df['tweet'] == 0].index, inplace = True)
 #drop the language column now we have finished with selection
 df.drop(['language'], axis=1, inplace=True)
 
-#export datase to csv file
+#export dataset to csv file
 df.to_csv('double_clean_depr.csv')
